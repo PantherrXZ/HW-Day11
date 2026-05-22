@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .banner {
+            margin: 0;
+            padding: 0;
+        }
+        .banner img{
+            width: 100%;
+            height: 300px;
+            display: block;
+        }
+        .tabMenu {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background-color: bisque;
+        }
+        .products {
+            display:grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+            
+        }
+        .item {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+        }
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+        }
+
+        .btn2 {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn-buy{
+            background-color: rgba(0, 102, 255, 0.849);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+        }
+        .btn-buy:hover {
+            background-color: rgb(0, 38, 255);
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-details{
+            background-color: gray;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+        }
+        .btn-details:hover {
+            background-color: rgb(49, 49, 49);
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+     <div class="banner">
+            <img src="https://t3.ftcdn.net/jpg/03/64/82/86/360_F_364828676_VvSUuPsv4zbDXTIFtF0hwjJs6eEoeQSz.jpg" alt="Logo brand">
+        </div>
+    <div class="tabMenu">
+            <p class="button">Home</p>
+            <p class="button">Products</p>
+            <p class="button">Contact</p>
+        </div>
+
+    <div class="products">
+        <div class="item">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv3DNvFozapG3DIIPYME--k0LE0p05G1JcE7bt1QGQOc3zQEZJAS98fGnpX98TOz5BPAIQbspMLLYlXXSxwnoSHjsipHE75P7MYA2HlHDBy4iMC-meOAFtgjCm6j2KtNmHD-j09bk&usqp=CAc">
+            <h1><b>Product 1</b></h1>
+            <p><b>49.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXJC2_y9ePievPLXJqWY5pzzSOQxmts3z4XmYjP7NfvLNgzPHZhgq7pElf1MdPLfZjAKOZb3ZMPw4--Ua1vIhrxQ3DLHH9kz_y__btFhYeCgMwV4JPDG9g_61keD7tEVFLlt9TWUI&usqp=CAc">
+            <h1><b>Product 2</b></h1>
+            <p><b>59.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFiQe0FSfaPb-_Em2yyQbxUZUJGfNSDcu3VUJwDNiFU8ytY4GYQ765ao_DMCpVOO4MRj1x1MqSZVai-T1O3n0ILVVtiFSJ5wyVSPEONAqvqsh2RkI4Z-hMJEBCCI-9CsjNGXCRgS61&usqp=CAc">
+            <h1><b>Product 3</b></h1>
+            <p><b>39.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>
+        </div>
+
+            <div class="item">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv3DNvFozapG3DIIPYME--k0LE0p05G1JcE7bt1QGQOc3zQEZJAS98fGnpX98TOz5BPAIQbspMLLYlXXSxwnoSHjsipHE75P7MYA2HlHDBy4iMC-meOAFtgjCm6j2KtNmHD-j09bk&usqp=CAc">
+            <h1><b>Product 1</b></h1>
+            <p><b>49.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXJC2_y9ePievPLXJqWY5pzzSOQxmts3z4XmYjP7NfvLNgzPHZhgq7pElf1MdPLfZjAKOZb3ZMPw4--Ua1vIhrxQ3DLHH9kz_y__btFhYeCgMwV4JPDG9g_61keD7tEVFLlt9TWUI&usqp=CAc">
+            <h1><b>Product 2</b></h1>
+            <p><b>59.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFiQe0FSfaPb-_Em2yyQbxUZUJGfNSDcu3VUJwDNiFU8ytY4GYQ765ao_DMCpVOO4MRj1x1MqSZVai-T1O3n0ILVVtiFSJ5wyVSPEONAqvqsh2RkI4Z-hMJEBCCI-9CsjNGXCRgS61&usqp=CAc">
+            <h1><b>Product 3</b></h1>
+            <p><b>39.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>
+
+        </div>
+
+            <div class="item">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv3DNvFozapG3DIIPYME--k0LE0p05G1JcE7bt1QGQOc3zQEZJAS98fGnpX98TOz5BPAIQbspMLLYlXXSxwnoSHjsipHE75P7MYA2HlHDBy4iMC-meOAFtgjCm6j2KtNmHD-j09bk&usqp=CAc">
+            <h1><b>Product 1</b></h1>
+            <p><b>49.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXJC2_y9ePievPLXJqWY5pzzSOQxmts3z4XmYjP7NfvLNgzPHZhgq7pElf1MdPLfZjAKOZb3ZMPw4--Ua1vIhrxQ3DLHH9kz_y__btFhYeCgMwV4JPDG9g_61keD7tEVFLlt9TWUI&usqp=CAc">
+            <h1><b>Product 2</b></h1>
+            <p><b>59.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFiQe0FSfaPb-_Em2yyQbxUZUJGfNSDcu3VUJwDNiFU8ytY4GYQ765ao_DMCpVOO4MRj1x1MqSZVai-T1O3n0ILVVtiFSJ5wyVSPEONAqvqsh2RkI4Z-hMJEBCCI-9CsjNGXCRgS61&usqp=CAc">
+            <h1><b>Product 3</b></h1>
+            <p><b>39.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>
+        </div>
+
+        <div class="item">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTv3DNvFozapG3DIIPYME--k0LE0p05G1JcE7bt1QGQOc3zQEZJAS98fGnpX98TOz5BPAIQbspMLLYlXXSxwnoSHjsipHE75P7MYA2HlHDBy4iMC-meOAFtgjCm6j2KtNmHD-j09bk&usqp=CAc">
+            <h1><b>Product 1</b></h1>
+            <p><b>49.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXJC2_y9ePievPLXJqWY5pzzSOQxmts3z4XmYjP7NfvLNgzPHZhgq7pElf1MdPLfZjAKOZb3ZMPw4--Ua1vIhrxQ3DLHH9kz_y__btFhYeCgMwV4JPDG9g_61keD7tEVFLlt9TWUI&usqp=CAc">
+            <h1><b>Product 2</b></h1>
+            <p><b>59.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>   
+         </div>
+         <div class="item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFiQe0FSfaPb-_Em2yyQbxUZUJGfNSDcu3VUJwDNiFU8ytY4GYQ765ao_DMCpVOO4MRj1x1MqSZVai-T1O3n0ILVVtiFSJ5wyVSPEONAqvqsh2RkI4Z-hMJEBCCI-9CsjNGXCRgS61&usqp=CAc">
+            <h1><b>Product 3</b></h1>
+            <p><b>39.99$</b></p>
+                <div class="btn2">
+                    <button class="btn-buy">Buy</button>
+                    <button class="btn-details">Details</button>
+                 </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
